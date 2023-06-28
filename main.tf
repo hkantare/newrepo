@@ -1,3 +1,5 @@
+data "ibm_is_images" "ds_images" {
+}
 
 
 resource "ibm_is_vpc" "vpc" {
