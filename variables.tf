@@ -12,3 +12,7 @@ variable "api_key" {
   type = string
   default = ""
 }
+
+variable "IC_API_KEY" {
+  default = ""
+}
