@@ -17,3 +17,7 @@
 #resource "null_resource" "next" {
 #  depends_on = [time_sleep.wait_30_seconds]
 #}
+
+data "ibm_is_vpc" "example" {
+  name = var.vpc_name
+}
